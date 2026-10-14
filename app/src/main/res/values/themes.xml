@@ -1,9 +1,33 @@
-<resources xmlns:tools="http://schemas.android.com/tools">
-    <!-- Base application theme. -->
-    <style name="Base.Theme.PMDM_P1_PedroEduardoDeLaPuenteRodriguez" parent="Theme.Material3.DayNight.NoActionBar">
-        <!-- Customize your light theme here. -->
-        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+<resources>
+
+    <style name="Base.Theme.AguaDiaria" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/color_primario</item>
+        <item name="colorOnPrimary">@color/color_texto_sobre_primario</item>
+        <item name="colorSecondary">@color/color_secundario</item>
+        <item name="android:windowBackground">@color/color_fondo</item>
+        <item name="android:statusBarColor">@color/color_primario_oscuro</item>
     </style>
 
-    <style name="Theme.PMDM_P1_PedroEduardoDeLaPuenteRodriguez" parent="Base.Theme.PMDM_P1_PedroEduardoDeLaPuenteRodriguez" />
+    <style name="Theme.AguaDiaria" parent="Base.Theme.AguaDiaria" />
+
+    <style name="EstiloTitulo">
+        <item name="android:textSize">@dimen/tamano_titulo</item>
+        <item name="android:textColor">@color/color_texto_principal</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_marginBottom">@dimen/margen_pantalla</item>
+    </style>
+
+    <style name="EstiloTextoNormal">
+        <item name="android:textSize">@dimen/tamano_texto</item>
+        <item name="android:textColor">@color/color_texto_principal</item>
+        <item name="android:layout_marginBottom">@dimen/margen_pequeno</item>
+    </style>
+
+    <style name="EstiloBotonPrincipal">
+        <item name="android:minHeight">@dimen/alto_boton</item>
+        <item name="android:textSize">@dimen/tamano_texto</item>
+        <item name="android:textColor">@color/color_texto_sobre_primario</item>
+        <item name="backgroundTint">@color/color_primario</item>
+        <item name="android:layout_marginTop">@dimen/margen_pequeno</item>
+    </style>
 </resources>
