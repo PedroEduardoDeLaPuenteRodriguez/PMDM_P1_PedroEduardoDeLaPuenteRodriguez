@@ -1,0 +1,9 @@
+<resources>
+    <dimen name="margen_pantalla">16dp</dimen>
+    <dimen name="margen_pequeno">8dp</dimen>
+    <dimen name="margen_grande">24dp</dimen>
+    <dimen name="tamano_titulo">26sp</dimen>
+    <dimen name="tamano_texto">16sp</dimen>
+    <dimen name="alto_boton">48dp</dimen>
+    <dimen name="tamano_imagen">96dp</dimen>
+</resources>
