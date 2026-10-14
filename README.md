@@ -146,10 +146,6 @@ flowchart LR
     CU1 -. include .-> CU2
 ```
 
-INSERTAR AQUÍ LA CAPTURA DEL DIAGRAMA DE CASOS DE USO REDIBUJADO EN DRAW.IO (ARCHIVO `capturas/casos_de_uso.png`)
-
-![Diagrama de casos de uso](capturas/casos_de_uso.png)
-
 La relación `include` entre CU-01 y CU-02 indica que, cada vez que el usuario añade un vaso, el sistema actualiza obligatoriamente el progreso del día.
 
 #### Ficha CU-01: Añadir vaso
@@ -340,29 +336,13 @@ android:roundIcon="@mipmap/ic_launcher_round"
 
 ## 7. Historial de commits
 
-El proyecto se ha desarrollado por bloques, con un commit descriptivo por cada uno.
+El proyecto se ha desarrollado por bloques, con un commit por cada uno.
 
-CAPTURA: PESTAÑA COMMITS DE GITHUB MOSTRANDO 6 O MÁS COMMITS REPARTIDOS EN VARIOS DÍAS (ARCHIVO `capturas/commits.png`)
-
-![Historial de commits](capturas/commits.png)
-
-| Bloque | Mensaje de commit |
-|---|---|
-| Proyecto base | `Crea proyecto base con paquete es.medac...` |
-| Textos | `Añade strings.xml con textos, parámetros y string-array` |
-| Traducción | `Añade traducción al inglés en values-en` |
-| Colores y medidas | `Define paleta de colores y dimens` |
-| Estilos y tema | `Crea estilos propios y tema personalizado` |
-| Imágenes | `Añade imagen vectorial y bitmap` |
-| Pantalla | `Diseña pantalla principal con recursos` |
-| Icono | `Añade icono adaptativo` |
-| Documentación | `Añade capturas y README` |
+<img width="1075" height="836" alt="image" src="https://github.com/user-attachments/assets/04c61401-4809-4ffc-8e25-5c100b4e4b84" />
 
 El repositorio excluye la carpeta `build/` mediante `.gitignore`.
 
 ---
-
-## 8. Conclusión personal
 
 ## 8. Conclusión personal
 
