@@ -10,7 +10,7 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.PMDM_P1_PedroEduardoDeLaPuenteRodriguez">
+        android:theme="@style/Theme.AguaDiaria">
         <activity
             android:name=".MainActivity"
             android:exported="true"
