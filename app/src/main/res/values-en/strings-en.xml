@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">DailyWater</string>
+    <string name="titulo_principal">My water today</string>
+    <string name="saludo">Hi, %1$s. Time to drink water!</string>
+    <string name="progreso">You have had %1$d of %2$d glasses</string>
+    <string name="etiqueta_tamano">Glass size</string>
+    <string name="boton_anadir">Add glass</string>
+    <string name="boton_consejos">See tips</string>
+    <string name="desc_gota">Water drop icon</string>
+    <string name="desc_vaso">Photo of a glass of water</string>
+    <string name="nombre_ejemplo">Anna</string>
+
+    <string-array name="tamanos_vaso">
+        <item>Small (150 ml)</item>
+        <item>Medium (250 ml)</item>
+        <item>Large (350 ml)</item>
+    </string-array>
+</resources>
