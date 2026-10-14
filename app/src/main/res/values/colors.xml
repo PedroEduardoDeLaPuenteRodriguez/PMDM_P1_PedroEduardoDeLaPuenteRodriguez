@@ -1,5 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="black">#FF000000</color>
-    <color name="white">#FFFFFFFF</color>
+    <color name="color_primario">#0277BD</color>
+    <color name="color_primario_oscuro">#01579B</color>
+    <color name="color_secundario">#4FC3F7</color>
+    <color name="color_fondo">#F1F8FE</color>
+    <color name="color_texto_principal">#12283A</color>
+    <color name="color_texto_sobre_primario">#FFFFFF</color>
+    <color name="color_acento">#FFB74D</color>
 </resources>
