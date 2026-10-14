@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">AguaDiaria</string>
+    <string name="titulo_principal">Mi agua de hoy</string>
+    <string name="saludo">Hola, %1$s. ¡A beber agua!</string>
+    <string name="progreso">Llevas %1$d de %2$d vasos</string>
+    <string name="etiqueta_tamano">Tamaño del vaso</string>
+    <string name="boton_anadir">Añadir vaso</string>
+    <string name="boton_consejos">Ver consejos</string>
+    <string name="desc_gota">Icono de una gota de agua</string>
+    <string name="desc_vaso">Fotografía de un vaso de agua</string>
+    <string name="nombre_ejemplo">Pedro</string>
+
+    <string-array name="tamanos_vaso">
+        <item>Pequeño (150 ml)</item>
+        <item>Mediano (250 ml)</item>
+        <item>Grande (350 ml)</item>
+    </string-array>
+</resources>
