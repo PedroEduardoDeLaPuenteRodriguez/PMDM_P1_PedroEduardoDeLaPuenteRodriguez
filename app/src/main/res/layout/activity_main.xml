@@ -1,19 +1,75 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/main"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    android:fillViewport="true">
 
-    <TextView
-        android:layout_width="wrap_content"
+    <LinearLayout
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:orientation="vertical"
+        android:padding="@dimen/margen_pantalla">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+        <TextView
+            style="@style/EstiloTitulo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/titulo_principal" />
+
+        <TextView
+            android:id="@+id/tv_saludo"
+            style="@style/EstiloTextoNormal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <ImageView
+            android:layout_width="@dimen/tamano_imagen"
+            android:layout_height="@dimen/tamano_imagen"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="@dimen/margen_grande"
+            android:contentDescription="@string/desc_gota"
+            android:src="@drawable/ic_gota" />
+
+        <ImageView
+            android:layout_width="@dimen/tamano_imagen"
+            android:layout_height="@dimen/tamano_imagen"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="@dimen/margen_pequeno"
+            android:contentDescription="@string/desc_vaso"
+            android:scaleType="centerCrop"
+            android:src="@drawable/ic_gota" />
+
+        <TextView
+            android:id="@+id/tv_progreso"
+            style="@style/EstiloTextoNormal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margen_grande" />
+
+        <TextView
+            style="@style/EstiloTextoNormal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/etiqueta_tamano" />
+
+        <Spinner
+            android:id="@+id/sp_tamano"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/alto_boton"
+            android:entries="@array/tamanos_vaso" />
+
+        <Button
+            android:id="@+id/btn_anadir"
+            style="@style/EstiloBotonPrincipal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/boton_anadir" />
+
+        <Button
+            android:id="@+id/btn_consejos"
+            style="@style/EstiloBotonPrincipal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/boton_consejos" />
+    </LinearLayout>
+</ScrollView>
